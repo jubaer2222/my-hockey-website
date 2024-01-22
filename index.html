@@ -36,7 +36,7 @@
 <body class="font-manrope">
     <header class="md:container md:mx-auto">
         <!-- NAVBAR -->
-        <nav class="mt-14">
+        <nav class="mt-12 mb-12">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -45,29 +45,125 @@
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                       <li><a>Home</a></li>
-                      <li><a>Shop</a></li> 
-                      <li><a>News</a></li>
+                      <li><a>About</a></li> 
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
                       <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class=" text-4xl font-extrabold">Hockey <span class="text-[#FF4240]">’</span>s</a>
+                  <a class=" text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-[#424247]">
                     <li class="text-hockey-primary"><a>Home</a></li>
-                      <li><a>Shop</a></li> 
-                      <li><a>News</a></li>
+                      <li><a>About</a></li> 
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
                       <li><a>Contact</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end flex gap-5">
-                  <img class="" src="Images/Frame.svg" alt="">
+                  <img class="hidden lg:block" src="Images/Frame.svg" alt="">
                   <a class="btn text-xl font-bold bg-hockey-primary rounded-lg">Get Ticket</a>
                 </div>
               </div>
         </nav>
 
+          <!-- SLIDER/CAROSULE -->
+
+          <div class="carousel w-full relative">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="/Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+        
+          </div>
+          <!-- Hero of the field -->
+        <div class="bg-black lg:p-8 p-5 sm:mb-4 m-4  rounded-2xl lg:w-[570px] lg:h-[164px] lg:absolute left-[540px] top-[200px] sm:static ">
+          <h3 class="font-extrabold text-2xl text-white mb-4">Meet all the heroes from the field</h3>
+          <p class="text-[#FFFFFF99] font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
     </header>
-    
+        <!-- MAIN SECTION -->
+      <main class="md:container md:mx-auto">
+     <section>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-20">
+        <!-- T-Shirt -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 border border-[#13131313] rounded-2xl p-6">
+          <img src="Images/5.png" alt="">
+          <div>
+            <div class="flex gap-4 mb-3">  <!-- Svg Div -->
+              <div class="flex">
+                <img src="Images/Frame (1).png" alt="">
+              <p>5.0</p>
+              </div>
+              <div class="flex">
+                <img src="Images/Frame (3).png" alt="">
+              <p>20</p>
+              </div>
+              <div class="flex">
+                <img src="Images/Frame (2).png" alt="">
+              <p>200</p>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xl font-extrabold mb-3">World Cup Flags Football</h3>
+              <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+
+            <div class="flex gap-5 mt-4">
+              <h3 class="text-hockey-primary font-extrabold">Price - $22.00</h3>
+              <div class="flex">
+                <img src="Images/frame-tray.svg" alt="">
+                <p class="font-medium">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Green-Football -->
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 border border-[#13131313] rounded-2xl p-6">
+          <img src="Images/6.png" alt="">
+          <div>
+            <div class="flex gap-4 mb-3">  <!-- Svg Div -->
+              <div class="flex">
+                <img src="Images/Frame (1).png" alt="">
+              <p>5.0</p>
+              </div>
+              <div class="flex">
+                <img src="Images/Frame (3).png" alt="">
+              <p>20</p>
+              </div>
+              <div class="flex">
+                <img src="Images/Frame (2).png" alt="">
+              <p>200</p>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xl font-extrabold mb-3">World Cup Flags Football</h3>
+              <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+
+            <div class="flex gap-5 mt-4">
+              <h3 class="text-hockey-primary font-extrabold">Price - $22.00</h3>
+              <div class="flex">
+                <img src="Images/frame-tray.svg" alt="">
+                <p class="font-medium">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+      </main>
 </body>
 </html>
